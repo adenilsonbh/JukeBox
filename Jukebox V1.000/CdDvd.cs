@@ -10,7 +10,6 @@ namespace Jukebox_V1._000
     {
         public string tituloCdDvd;
         public string caminhoCapa;
-
         public List<Musica> musicas = new List<Musica>();
 
         public CdDvd(string tituloCd)

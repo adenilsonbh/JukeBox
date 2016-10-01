@@ -60,7 +60,7 @@ namespace Jukebox_V1._000
                     else
                     {
 
-                        picture[i].ImageLocation = @"img\imgcap.jpg3";
+                        picture[i].ImageLocation = @"img\imgcap.png";
                     }
                 }
                 catch { }
@@ -128,7 +128,7 @@ namespace Jukebox_V1._000
                     else
                     {
 
-                        picture[i].ImageLocation = @"img\imgcap.jpg3";
+                        picture[i].ImageLocation = @"img\imgcap.png";
                     }
                 }
                 catch { }

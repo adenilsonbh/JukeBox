@@ -54,16 +54,16 @@
             this.label4 = new System.Windows.Forms.Label();
             this.Player = new AxWMPLib.AxWindowsMediaPlayer();
             this.label1 = new System.Windows.Forms.Label();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.label3 = new System.Windows.Forms.Label();
             this.lbCreditos = new System.Windows.Forms.Label();
             this.lbAtencaoPastaVazia = new System.Windows.Forms.Label();
-            this.btSelecionar = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.lbTotalCds = new System.Windows.Forms.Label();
             this.lbCdAtual = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.button2 = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.lbTocando = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
@@ -79,11 +79,11 @@
             this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Player2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Player)).BeginInit();
-            this.groupBox5.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.pictureBox8);
             this.groupBox1.Controls.Add(this.pictureBox9);
             this.groupBox1.Controls.Add(this.pictureBox6);
@@ -94,7 +94,7 @@
             this.groupBox1.Controls.Add(this.pictureBox2);
             this.groupBox1.Controls.Add(this.pictureBox3);
             this.groupBox1.Controls.Add(this.pictureBox1);
-            this.groupBox1.Location = new System.Drawing.Point(104, 8);
+            this.groupBox1.Location = new System.Drawing.Point(128, 8);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(945, 325);
             this.groupBox1.TabIndex = 0;
@@ -143,8 +143,9 @@
             // lbTituloCdAtual
             // 
             this.lbTituloCdAtual.AutoSize = true;
-            this.lbTituloCdAtual.BackColor = System.Drawing.Color.GreenYellow;
+            this.lbTituloCdAtual.BackColor = System.Drawing.Color.Black;
             this.lbTituloCdAtual.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbTituloCdAtual.ForeColor = System.Drawing.Color.White;
             this.lbTituloCdAtual.Location = new System.Drawing.Point(273, 31);
             this.lbTituloCdAtual.Name = "lbTituloCdAtual";
             this.lbTituloCdAtual.Size = new System.Drawing.Size(81, 22);
@@ -203,21 +204,21 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(414, 25);
+            this.button1.Location = new System.Drawing.Point(856, 612);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(189, 31);
             this.button1.TabIndex = 7;
-            this.button1.Text = "Atualizar Biblioteca";
+            this.button1.Text = "Atualizar / F5";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.botaoCarregar);
             // 
             // groupBox2
             // 
+            this.groupBox2.BackColor = System.Drawing.Color.Transparent;
             this.groupBox2.Controls.Add(this.lstPlayList);
-            this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Location = new System.Drawing.Point(105, 341);
+            this.groupBox2.Location = new System.Drawing.Point(129, 369);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(249, 286);
+            this.groupBox2.Size = new System.Drawing.Size(249, 308);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             // 
@@ -228,17 +229,18 @@
             this.lstPlayList.Location = new System.Drawing.Point(13, 23);
             this.lstPlayList.Name = "lstPlayList";
             this.lstPlayList.ScrollAlwaysVisible = true;
-            this.lstPlayList.Size = new System.Drawing.Size(228, 256);
+            this.lstPlayList.Size = new System.Drawing.Size(228, 274);
             this.lstPlayList.TabIndex = 0;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(87, 2);
+            this.label2.ForeColor = System.Drawing.SystemColors.Window;
+            this.label2.Location = new System.Drawing.Point(199, 348);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(79, 18);
+            this.label2.Size = new System.Drawing.Size(133, 18);
             this.label2.TabIndex = 1;
-            this.label2.Text = "PLAYLIST";
+            this.label2.Text = "SELECIONADAS";
             // 
             // lstbCdSelecionado
             // 
@@ -248,7 +250,7 @@
             this.lstbCdSelecionado.ItemHeight = 19;
             this.lstbCdSelecionado.Location = new System.Drawing.Point(6, 13);
             this.lstbCdSelecionado.Name = "lstbCdSelecionado";
-            this.lstbCdSelecionado.Size = new System.Drawing.Size(314, 270);
+            this.lstbCdSelecionado.Size = new System.Drawing.Size(398, 289);
             this.lstbCdSelecionado.TabIndex = 2;
             this.lstbCdSelecionado.SelectedIndexChanged += new System.EventHandler(this.listBox2_SelectedIndexChanged);
             this.lstbCdSelecionado.DisplayMemberChanged += new System.EventHandler(this.listBox2_DisplayMemberChanged);
@@ -258,38 +260,46 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.BackColor = System.Drawing.Color.Transparent;
             this.groupBox3.Controls.Add(this.lstbCdSelecionado);
-            this.groupBox3.Location = new System.Drawing.Point(404, 341);
+            this.groupBox3.Location = new System.Drawing.Point(397, 369);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(326, 286);
+            this.groupBox3.Size = new System.Drawing.Size(410, 308);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             // 
             // groupBox4
             // 
+            this.groupBox4.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox4.Controls.Add(this.label5);
+            this.groupBox4.Controls.Add(this.label3);
+            this.groupBox4.Controls.Add(this.lbCreditos);
             this.groupBox4.Controls.Add(this.Player2);
+            this.groupBox4.Controls.Add(this.lbAtencaoPastaVazia);
             this.groupBox4.Controls.Add(this.lbDuracao);
             this.groupBox4.Controls.Add(this.lbTime);
             this.groupBox4.Controls.Add(this.label4);
-            this.groupBox4.Location = new System.Drawing.Point(756, 362);
+            this.groupBox4.Location = new System.Drawing.Point(828, 369);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(315, 255);
+            this.groupBox4.Size = new System.Drawing.Size(245, 237);
             this.groupBox4.TabIndex = 3;
             this.groupBox4.TabStop = false;
             // 
             // Player2
             // 
             this.Player2.Enabled = true;
-            this.Player2.Location = new System.Drawing.Point(37, 25);
+            this.Player2.Location = new System.Drawing.Point(10, 25);
             this.Player2.Name = "Player2";
             this.Player2.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Player2.OcxState")));
-            this.Player2.Size = new System.Drawing.Size(208, 107);
+            this.Player2.Size = new System.Drawing.Size(208, 35);
             this.Player2.TabIndex = 17;
+            this.Player2.Visible = false;
             // 
             // lbDuracao
             // 
             this.lbDuracao.AutoSize = true;
-            this.lbDuracao.Location = new System.Drawing.Point(229, 222);
+            this.lbDuracao.ForeColor = System.Drawing.Color.White;
+            this.lbDuracao.Location = new System.Drawing.Point(188, 118);
             this.lbDuracao.Name = "lbDuracao";
             this.lbDuracao.Size = new System.Drawing.Size(48, 18);
             this.lbDuracao.TabIndex = 16;
@@ -298,7 +308,8 @@
             // lbTime
             // 
             this.lbTime.AutoSize = true;
-            this.lbTime.Location = new System.Drawing.Point(229, 192);
+            this.lbTime.ForeColor = System.Drawing.Color.White;
+            this.lbTime.Location = new System.Drawing.Point(128, 118);
             this.lbTime.Name = "lbTime";
             this.lbTime.Size = new System.Drawing.Size(48, 18);
             this.lbTime.TabIndex = 15;
@@ -307,11 +318,12 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(34, 207);
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(34, 118);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(125, 18);
+            this.label4.Size = new System.Drawing.Size(88, 18);
             this.label4.TabIndex = 1;
-            this.label4.Text = "INFORMAÇÕES";
+            this.label4.Text = "DURAÇÃO";
             // 
             // Player
             // 
@@ -327,30 +339,19 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(454, 0);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(478, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(43, 18);
             this.label1.TabIndex = 0;
             this.label1.Text = "CDS";
             // 
-            // groupBox5
-            // 
-            this.groupBox5.Controls.Add(this.label3);
-            this.groupBox5.Controls.Add(this.lbCreditos);
-            this.groupBox5.Controls.Add(this.lbAtencaoPastaVazia);
-            this.groupBox5.Controls.Add(this.btSelecionar);
-            this.groupBox5.Controls.Add(this.button5);
-            this.groupBox5.Controls.Add(this.button1);
-            this.groupBox5.Location = new System.Drawing.Point(104, 633);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(992, 63);
-            this.groupBox5.TabIndex = 4;
-            this.groupBox5.TabStop = false;
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(714, 31);
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(34, 87);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(97, 18);
             this.label3.TabIndex = 19;
@@ -359,7 +360,8 @@
             // lbCreditos
             // 
             this.lbCreditos.AutoSize = true;
-            this.lbCreditos.Location = new System.Drawing.Point(819, 31);
+            this.lbCreditos.ForeColor = System.Drawing.Color.White;
+            this.lbCreditos.Location = new System.Drawing.Point(139, 87);
             this.lbCreditos.Name = "lbCreditos";
             this.lbCreditos.Size = new System.Drawing.Size(0, 18);
             this.lbCreditos.TabIndex = 18;
@@ -368,36 +370,27 @@
             // 
             this.lbAtencaoPastaVazia.AutoSize = true;
             this.lbAtencaoPastaVazia.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbAtencaoPastaVazia.ForeColor = System.Drawing.Color.Red;
-            this.lbAtencaoPastaVazia.Location = new System.Drawing.Point(737, 13);
+            this.lbAtencaoPastaVazia.ForeColor = System.Drawing.Color.White;
+            this.lbAtencaoPastaVazia.Location = new System.Drawing.Point(57, 69);
             this.lbAtencaoPastaVazia.Name = "lbAtencaoPastaVazia";
             this.lbAtencaoPastaVazia.Size = new System.Drawing.Size(0, 15);
             this.lbAtencaoPastaVazia.TabIndex = 9;
             // 
-            // btSelecionar
-            // 
-            this.btSelecionar.Location = new System.Drawing.Point(191, 19);
-            this.btSelecionar.Name = "btSelecionar";
-            this.btSelecionar.Size = new System.Drawing.Size(93, 26);
-            this.btSelecionar.TabIndex = 8;
-            this.btSelecionar.Text = "Selecionar";
-            this.btSelecionar.UseVisualStyleBackColor = true;
-            this.btSelecionar.Click += new System.EventHandler(this.btSelecionar_Click);
-            // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(80, 19);
+            this.button5.Location = new System.Drawing.Point(856, 649);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(93, 26);
+            this.button5.Size = new System.Drawing.Size(108, 26);
             this.button5.TabIndex = 1;
-            this.button5.Text = "Tocar";
+            this.button5.Text = "Tocar / F1";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // lbTotalCds
             // 
             this.lbTotalCds.AutoSize = true;
-            this.lbTotalCds.Location = new System.Drawing.Point(829, 341);
+            this.lbTotalCds.ForeColor = System.Drawing.Color.White;
+            this.lbTotalCds.Location = new System.Drawing.Point(853, 341);
             this.lbTotalCds.Name = "lbTotalCds";
             this.lbTotalCds.Size = new System.Drawing.Size(37, 18);
             this.lbTotalCds.TabIndex = 13;
@@ -406,7 +399,8 @@
             // lbCdAtual
             // 
             this.lbCdAtual.AutoSize = true;
-            this.lbCdAtual.Location = new System.Drawing.Point(770, 341);
+            this.lbCdAtual.ForeColor = System.Drawing.Color.White;
+            this.lbCdAtual.Location = new System.Drawing.Point(836, 341);
             this.lbCdAtual.Name = "lbCdAtual";
             this.lbCdAtual.Size = new System.Drawing.Size(0, 18);
             this.lbCdAtual.TabIndex = 14;
@@ -417,24 +411,48 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(973, 342);
+            this.button2.Location = new System.Drawing.Point(970, 649);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(75, 26);
             this.button2.TabIndex = 15;
             this.button2.Text = "Sair";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(125, 214);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(115, 18);
+            this.label5.TabIndex = 20;
+            this.label5.Text = "Gleidson Viana";
+            // 
+            // lbTocando
+            // 
+            this.lbTocando.AutoSize = true;
+            this.lbTocando.ForeColor = System.Drawing.Color.White;
+            this.lbTocando.Location = new System.Drawing.Point(3, 678);
+            this.lbTocando.Name = "lbTocando";
+            this.lbTocando.Size = new System.Drawing.Size(99, 18);
+            this.lbTocando.TabIndex = 21;
+            this.lbTocando.Text = "TOCANDO...";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackColor = System.Drawing.Color.Black;
+            this.BackgroundImage = global::Jukebox_V1._000.Properties.Resources.fundo;
             this.ClientSize = new System.Drawing.Size(1200, 705);
+            this.Controls.Add(this.lbTocando);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.lbCdAtual);
             this.Controls.Add(this.lbTotalCds);
-            this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox3);
@@ -464,14 +482,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Player2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Player)).EndInit();
-            this.groupBox5.ResumeLayout(false);
-            this.groupBox5.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -493,7 +508,6 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.ListBox lstPlayList;
         private System.Windows.Forms.ListBox lstbCdSelecionado;
-        private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label lbTituloCdAtual;
         private System.Windows.Forms.Button button5;
@@ -508,11 +522,12 @@
         private System.Windows.Forms.Label lbDuracao;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button btSelecionar;
         private System.Windows.Forms.Label lbAtencaoPastaVazia;
         private AxWMPLib.AxWindowsMediaPlayer Player2;
         private System.Windows.Forms.Label lbCreditos;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lbTocando;
     }
 }
 

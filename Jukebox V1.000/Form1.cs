@@ -15,6 +15,7 @@ namespace Jukebox_V1._000
     {
         public Form1()
         {
+            //https://pixabay.com/pt/música-clave-de-sol-clave-tonkunst-1521116/ imagem de fundo livre de direitos autorais
             InitializeComponent();
         }
 
@@ -28,7 +29,7 @@ namespace Jukebox_V1._000
         string caminhoPastaPrincipal = @"C:\MUSICA";
 
 
-        private void button1_Click(object sender, EventArgs e)
+        private void botaoCarregar(object sender, EventArgs e)
         {
             lstbCdSelecionado.Items.Clear();
             if (principal != null)
@@ -93,47 +94,47 @@ namespace Jukebox_V1._000
 
                 if (principal.Cds[0].caminhoCapa != null)
                 { pictures[0].ImageLocation = principal.Cds[0].caminhoCapa; }
-                else { pictures[0].ImageLocation = @"img\imgcap.jpg3"; }
+                else { pictures[0].ImageLocation = @"img\imgcap.png"; }
                 Application.DoEvents();
 
                 if (principal.Cds[1].caminhoCapa != null)
                 { pictures[1].ImageLocation = principal.Cds[1].caminhoCapa; }
-                else { pictures[1].ImageLocation = @"img\imgcap.jpg3"; }
+                else { pictures[1].ImageLocation = @"img\imgcap.png"; }
                 Application.DoEvents();
 
                 if (principal.Cds[2].caminhoCapa != null)
                 { pictures[2].ImageLocation = principal.Cds[2].caminhoCapa; }
-                else { pictures[2].ImageLocation = @"img\imgcap.jpg3"; }
+                else { pictures[2].ImageLocation = @"img\imgcap.png"; }
                 Application.DoEvents();
 
                 if (principal.Cds[3].caminhoCapa != null)
                 { pictures[3].ImageLocation = principal.Cds[3].caminhoCapa; }
-                else { pictures[3].ImageLocation = @"img\imgcap.jpg3"; }
+                else { pictures[3].ImageLocation = @"img\imgcap.png"; }
                 Application.DoEvents();
 
                 if (principal.Cds[4].caminhoCapa != null)
                 { pictures[4].ImageLocation = principal.Cds[4].caminhoCapa; }
-                else { pictures[4].ImageLocation = @"img\imgcap.jpg3"; }
+                else { pictures[4].ImageLocation = @"img\imgcap.png"; }
                 Application.DoEvents();
 
                 if (principal.Cds[5].caminhoCapa != null)
                 { pictures[5].ImageLocation = principal.Cds[5].caminhoCapa; }
-                else { pictures[5].ImageLocation = @"img\imgcap.jpg3"; }
+                else { pictures[5].ImageLocation = @"img\imgcap.png"; }
                 Application.DoEvents();
 
                 if (principal.Cds[6].caminhoCapa != null)
                 { pictures[6].ImageLocation = principal.Cds[6].caminhoCapa; }
-                else { pictures[6].ImageLocation = @"img\imgcap.jpg3"; }
+                else { pictures[6].ImageLocation = @"img\imgcap.png"; }
                 Application.DoEvents();
 
                 if (principal.Cds[7].caminhoCapa != null)
                 { pictures[7].ImageLocation = principal.Cds[7].caminhoCapa; }
-                else { pictures[7].ImageLocation = @"img\imgcap.jpg3"; }
+                else { pictures[7].ImageLocation = @"img\imgcap.png"; }
                 Application.DoEvents();
 
                 if (principal.Cds[8].caminhoCapa != null)
                 { pictures[8].ImageLocation = principal.Cds[8].caminhoCapa; }
-                else { pictures[8].ImageLocation = @"img\imgcap.jpg3"; }
+                else { pictures[8].ImageLocation = @"img\imgcap.png"; }
                 Application.DoEvents();
 
 
@@ -178,7 +179,7 @@ namespace Jukebox_V1._000
 
         private void IniciarPlayer()
         {
-            if (lstPlayList.Items.Count > 0)
+            if (lstPlayList.Items.Count > 0 && contTimer==0)
             {
                 Player2.URL = musicasSelecionadas[0].get_caminhoMusica();
                 musicasSelecionadas.Remove(musicasSelecionadas[0]);
@@ -285,6 +286,7 @@ namespace Jukebox_V1._000
             }
             lbDuracao.Text = Player2.currentMedia.durationString;
             lbTime.Text = Player2.Ctlcontrols.currentPositionString;
+            //lbTocando.Text += Player2.Ctlcontrols.currentItem.name; EXIBIR MUSICA QUE ESTÁ TOCANDO
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -316,6 +318,10 @@ namespace Jukebox_V1._000
                 Player2.fullScreen = false;
                 IniciarPlayer();
             }
+            if (e.KeyCode == Keys.F5)
+            {
+                botaoCarregar(this,null);
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -323,10 +329,5 @@ namespace Jukebox_V1._000
             Application.Exit();
         }
 
-        private void btSelecionar_Click(object sender, EventArgs e)
-        {
-            AdcionarPlayList();
-
-        }
     }
 }
