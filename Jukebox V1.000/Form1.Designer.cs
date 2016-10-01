@@ -252,10 +252,6 @@
             this.lstbCdSelecionado.Name = "lstbCdSelecionado";
             this.lstbCdSelecionado.Size = new System.Drawing.Size(398, 289);
             this.lstbCdSelecionado.TabIndex = 2;
-            this.lstbCdSelecionado.SelectedIndexChanged += new System.EventHandler(this.listBox2_SelectedIndexChanged);
-            this.lstbCdSelecionado.DisplayMemberChanged += new System.EventHandler(this.listBox2_DisplayMemberChanged);
-            this.lstbCdSelecionado.SelectedValueChanged += new System.EventHandler(this.listBox2_SelectedValueChanged);
-            this.lstbCdSelecionado.DoubleClick += new System.EventHandler(this.listBox2_DoubleClick);
             this.lstbCdSelecionado.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.listBox2_KeyPress);
             // 
             // groupBox3
@@ -333,8 +329,6 @@
             this.Player.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Player.OcxState")));
             this.Player.Size = new System.Drawing.Size(252, 136);
             this.Player.TabIndex = 0;
-            this.Player.PlayStateChange += new AxWMPLib._WMPOCXEvents_PlayStateChangeEventHandler(this.axWindowsMediaPlayer1_PlayStateChange);
-            this.Player.EndOfStream += new AxWMPLib._WMPOCXEvents_EndOfStreamEventHandler(this.axWindowsMediaPlayer1_EndOfStream);
             // 
             // label1
             // 

@@ -16,7 +16,9 @@ namespace Jukebox_V1._000
         public Form1()
         {
             //https://pixabay.com/pt/música-clave-de-sol-clave-tonkunst-1521116/ imagem de fundo livre de direitos autorais
+            
             InitializeComponent();
+           
         }
 
         List<Musica> musicasSelecionadas = new List<Musica>();
@@ -27,7 +29,20 @@ namespace Jukebox_V1._000
         Navegacao navegar;
         PictureBox[] pictures = new PictureBox[9];
         string caminhoPastaPrincipal = @"C:\MUSICA";
-
+        private void Form1_Load(object sender, System.EventArgs e)
+        {
+            pictures[0] = pictureBox1;
+            pictures[1] = pictureBox2;
+            pictures[2] = pictureBox3;
+            pictures[3] = pictureBox4;
+            pictures[4] = pictureBox5;
+            pictures[5] = pictureBox6;
+            pictures[6] = pictureBox7;
+            pictures[7] = pictureBox8;
+            pictures[8] = pictureBox9;
+            lbCreditos.Text = creditos.ToString();
+            botaoCarregar(this, null);
+        }
 
         private void botaoCarregar(object sender, EventArgs e)
         {
@@ -82,65 +97,19 @@ namespace Jukebox_V1._000
 
         }
 
-        private void btCarregarCapas_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void CarregarCapas()
         {
             try
             {
 
-                if (principal.Cds[0].caminhoCapa != null)
-                { pictures[0].ImageLocation = principal.Cds[0].caminhoCapa; }
-                else { pictures[0].ImageLocation = @"img\imgcap.png"; }
-                Application.DoEvents();
-
-                if (principal.Cds[1].caminhoCapa != null)
-                { pictures[1].ImageLocation = principal.Cds[1].caminhoCapa; }
-                else { pictures[1].ImageLocation = @"img\imgcap.png"; }
-                Application.DoEvents();
-
-                if (principal.Cds[2].caminhoCapa != null)
-                { pictures[2].ImageLocation = principal.Cds[2].caminhoCapa; }
-                else { pictures[2].ImageLocation = @"img\imgcap.png"; }
-                Application.DoEvents();
-
-                if (principal.Cds[3].caminhoCapa != null)
-                { pictures[3].ImageLocation = principal.Cds[3].caminhoCapa; }
-                else { pictures[3].ImageLocation = @"img\imgcap.png"; }
-                Application.DoEvents();
-
-                if (principal.Cds[4].caminhoCapa != null)
-                { pictures[4].ImageLocation = principal.Cds[4].caminhoCapa; }
-                else { pictures[4].ImageLocation = @"img\imgcap.png"; }
-                Application.DoEvents();
-
-                if (principal.Cds[5].caminhoCapa != null)
-                { pictures[5].ImageLocation = principal.Cds[5].caminhoCapa; }
-                else { pictures[5].ImageLocation = @"img\imgcap.png"; }
-                Application.DoEvents();
-
-                if (principal.Cds[6].caminhoCapa != null)
-                { pictures[6].ImageLocation = principal.Cds[6].caminhoCapa; }
-                else { pictures[6].ImageLocation = @"img\imgcap.png"; }
-                Application.DoEvents();
-
-                if (principal.Cds[7].caminhoCapa != null)
-                { pictures[7].ImageLocation = principal.Cds[7].caminhoCapa; }
-                else { pictures[7].ImageLocation = @"img\imgcap.png"; }
-                Application.DoEvents();
-
-                if (principal.Cds[8].caminhoCapa != null)
-                { pictures[8].ImageLocation = principal.Cds[8].caminhoCapa; }
-                else { pictures[8].ImageLocation = @"img\imgcap.png"; }
-                Application.DoEvents();
-
-
-
-
-
+                for (int i = 0; i < 9; i++)
+                {
+                    if (principal.Cds[i].caminhoCapa != null)
+                    { pictures[i].ImageLocation = principal.Cds[i].caminhoCapa; }
+                    else { pictures[i].ImageLocation = @"img\imgcap.png"; }
+                    Application.DoEvents();
+                }
+                
                 //somente para formatar texto na label
                 if (principal.Cds[navegar.Image2].tituloCdDvd.Length >= 29)
                 { lbTituloCdAtual.Text = (principal.Cds[navegar.Image2].tituloCdDvd).Substring(0, 29) + "..."; }
@@ -188,27 +157,6 @@ namespace Jukebox_V1._000
             }
         }
 
-        private void listBox2_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-
-        }
-
-        private void listBox2_SelectedValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void listBox2_DoubleClick(object sender, EventArgs e)
-        {
-
-        }
-
-        private void listBox2_DisplayMemberChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void listBox2_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar == 13)
@@ -229,7 +177,7 @@ namespace Jukebox_V1._000
                     lbCreditos.Text = creditos.ToString();
                     musicasSelecionadas.Add(principal.Cds[navegar.Image2].musicas[lstbCdSelecionado.SelectedIndex]);
                     lstPlayList.Items.Add(principal.Cds[navegar.Image2].musicas[lstbCdSelecionado.SelectedIndex].get_tituloMusica());
-                   // lstbCdSelecionado.MouseDown;
+                  
                     
                 }
 
@@ -250,18 +198,6 @@ namespace Jukebox_V1._000
             }
         }
 
-        private void axWindowsMediaPlayer1_EndOfStream(object sender, AxWMPLib._WMPOCXEvents_EndOfStreamEvent e)
-        {
-
-        }
-
-        private void axWindowsMediaPlayer1_PlayStateChange(object sender, AxWMPLib._WMPOCXEvents_PlayStateChangeEvent e)
-        {
-
-
-
-        }
-
         private void timer1_Tick(object sender, EventArgs e)
         {
 
@@ -272,8 +208,7 @@ namespace Jukebox_V1._000
             else
             {
                 contTimer = 0;
-               // Player2.fullScreen = true;//melhorar
-                
+             
             }
 
             if (lstPlayList.Items.Count > 0 && lbTime.Text != "" && Convert.ToInt32(lbTime.Text.Replace(":", "")) == Convert.ToInt32(lbDuracao.Text.Replace(":", "")) - 1)
@@ -289,19 +224,6 @@ namespace Jukebox_V1._000
             //lbTocando.Text += Player2.Ctlcontrols.currentItem.name; EXIBIR MUSICA QUE ESTÁ TOCANDO
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            pictures[0] = pictureBox1;
-            pictures[1] = pictureBox2;
-            pictures[2] = pictureBox3;
-            pictures[3] = pictureBox4;
-            pictures[4] = pictureBox5;
-            pictures[5] = pictureBox6;
-            pictures[6] = pictureBox7;
-            pictures[7] = pictureBox8;
-            pictures[8] = pictureBox9;
-            lbCreditos.Text = creditos.ToString();
-        }
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
