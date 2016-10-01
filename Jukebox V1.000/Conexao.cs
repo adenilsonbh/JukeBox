@@ -63,7 +63,6 @@ namespace Jukebox_V1._000
             cdAux = new CdDvd(dir.Name);
             bool flagNaoTemCapa = true;
 
-
             foreach (FileInfo file in dir.GetFiles("*.JPG"))
             {
                 try
@@ -77,9 +76,7 @@ namespace Jukebox_V1._000
                 {
                 }
             }
-           
-
-
+                           
             foreach (FileInfo file in dir.GetFiles("*.mp3"))
             {
                 try
@@ -115,17 +112,10 @@ namespace Jukebox_V1._000
 
                     }
 
-
-
                 }
-
-
-
                 cds.Add(cdAux);
                 temMusica = false;
             }
-
-
 
             foreach (DirectoryInfo subDir in dir.GetDirectories())
             {
