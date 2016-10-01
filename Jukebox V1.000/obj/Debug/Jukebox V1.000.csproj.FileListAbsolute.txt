@@ -1,0 +1,109 @@
+E:\C#\Jukebox V1.000\Jukebox V1.000\bin\Debug\Jukebox V1.000.exe.config
+E:\C#\Jukebox V1.000\Jukebox V1.000\bin\Debug\Jukebox V1.000.exe
+E:\C#\Jukebox V1.000\Jukebox V1.000\bin\Debug\Jukebox V1.000.pdb
+E:\C#\Jukebox V1.000\Jukebox V1.000\obj\Debug\Jukebox V1.000.csprojResolveAssemblyReference.cache
+E:\C#\Jukebox V1.000\Jukebox V1.000\obj\Debug\Jukebox_V1._000.Form1.resources
+E:\C#\Jukebox V1.000\Jukebox V1.000\obj\Debug\Jukebox_V1._000.Properties.Resources.resources
+E:\C#\Jukebox V1.000\Jukebox V1.000\obj\Debug\Jukebox V1.000.csproj.GenerateResource.Cache
+E:\C#\Jukebox V1.000\Jukebox V1.000\obj\Debug\Jukebox V1.000.exe
+E:\C#\Jukebox V1.000\Jukebox V1.000\obj\Debug\Jukebox V1.000.pdb
+C:\Users\495812\Desktop\Jukebox V1.000\Jukebox V1.000\bin\Debug\Jukebox V1.000.exe.config
+C:\Users\495812\Desktop\Jukebox V1.000\Jukebox V1.000\obj\Debug\Jukebox V1.000.exe
+C:\Users\495812\Desktop\Jukebox V1.000\Jukebox V1.000\obj\Debug\Jukebox V1.000.pdb
+C:\Users\495812\Desktop\Jukebox V1.000\Jukebox V1.000\bin\Debug\Jukebox V1.000.exe
+C:\Users\495812\Desktop\Jukebox V1.000\Jukebox V1.000\bin\Debug\Jukebox V1.000.pdb
+C:\Users\495812\Desktop\Jukebox V1.000\Jukebox V1.000\obj\Debug\Jukebox V1.000.csprojResolveAssemblyReference.cache
+C:\Users\495812\Desktop\Jukebox V1.000\Jukebox V1.000\obj\Debug\Jukebox_V1._000.Form1.resources
+C:\Users\495812\Desktop\Jukebox V1.000\Jukebox V1.000\obj\Debug\Jukebox_V1._000.Properties.Resources.resources
+C:\Users\495812\Desktop\Jukebox V1.000\Jukebox V1.000\obj\Debug\Jukebox V1.000.csproj.GenerateResource.Cache
+C:\Users\gleidson\Google Drive\VISUAL STUDIO PROJETOS\Jukebox V1.000\Jukebox V1.000\bin\Debug\Jukebox V1.000.exe.config
+C:\Users\gleidson\Google Drive\VISUAL STUDIO PROJETOS\Jukebox V1.000\Jukebox V1.000\obj\Debug\Jukebox V1.000.exe
+C:\Users\gleidson\Google Drive\VISUAL STUDIO PROJETOS\Jukebox V1.000\Jukebox V1.000\obj\Debug\Jukebox V1.000.pdb
+C:\Users\gleidson\Google Drive\VISUAL STUDIO PROJETOS\Jukebox V1.000\Jukebox V1.000\bin\Debug\Jukebox V1.000.exe
+C:\Users\gleidson\Google Drive\VISUAL STUDIO PROJETOS\Jukebox V1.000\Jukebox V1.000\bin\Debug\Jukebox V1.000.pdb
+C:\Users\gleidson\Google Drive\VISUAL STUDIO PROJETOS\Jukebox V1.000\Jukebox V1.000\obj\Debug\Jukebox V1.000.csprojResolveAssemblyReference.cache
+C:\Users\gleidson\Google Drive\VISUAL STUDIO PROJETOS\Jukebox V1.000\Jukebox V1.000\obj\Debug\Jukebox_V1._000.Form1.resources
+C:\Users\gleidson\Google Drive\VISUAL STUDIO PROJETOS\Jukebox V1.000\Jukebox V1.000\obj\Debug\Jukebox_V1._000.Properties.Resources.resources
+C:\Users\gleidson\Google Drive\VISUAL STUDIO PROJETOS\Jukebox V1.000\Jukebox V1.000\obj\Debug\Jukebox V1.000.csproj.GenerateResource.Cache
+C:\Users\495812\Downloads\Jukebox V1.000\Jukebox V1.000\bin\Debug\Jukebox V1.000.exe.config
+C:\Users\495812\Downloads\Jukebox V1.000\Jukebox V1.000\obj\Debug\Jukebox V1.000.exe
+C:\Users\495812\Downloads\Jukebox V1.000\Jukebox V1.000\obj\Debug\Jukebox V1.000.pdb
+C:\Users\495812\Downloads\Jukebox V1.000\Jukebox V1.000\obj\Debug\Jukebox V1.000.csprojResolveAssemblyReference.cache
+C:\Users\495812\Downloads\Jukebox V1.000\Jukebox V1.000\obj\Debug\Jukebox_V1._000.Form1.resources
+C:\Users\495812\Downloads\Jukebox V1.000\Jukebox V1.000\obj\Debug\Jukebox_V1._000.Properties.Resources.resources
+C:\Users\495812\Downloads\Jukebox V1.000\Jukebox V1.000\obj\Debug\Jukebox V1.000.csproj.GenerateResource.Cache
+C:\Users\495812\Downloads\Jukebox V1.000\Jukebox V1.000\bin\Debug\Jukebox V1.000.exe
+C:\Users\495812\Downloads\Jukebox V1.000\Jukebox V1.000\bin\Debug\Jukebox V1.000.pdb
+C:\Users\495812\Downloads\Jukebox V1.000\Jukebox V1.000\bin\Debug\Interop.WMPLib.dll
+C:\Users\495812\Downloads\Jukebox V1.000\Jukebox V1.000\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\495812\Downloads\Jukebox V1.000\Jukebox V1.000\obj\Debug\Interop.WMPLib.dll
+C:\Users\495812\Downloads\Jukebox V1.000\Jukebox V1.000\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\495812\Downloads\Jukebox V1.000\Jukebox V1.000\obj\Debug\Jukebox V1.000.csproj.ResolveComReference.cache
+C:\Users\gleidson\Google Drive\VISUAL STUDIO PROJETOS\Jukebox V1.0002\Jukebox V1.000\bin\Debug\Jukebox V1.000.exe.config
+C:\Users\gleidson\Google Drive\VISUAL STUDIO PROJETOS\Jukebox V1.0002\Jukebox V1.000\obj\Debug\Interop.WMPLib.dll
+C:\Users\gleidson\Google Drive\VISUAL STUDIO PROJETOS\Jukebox V1.0002\Jukebox V1.000\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\gleidson\Google Drive\VISUAL STUDIO PROJETOS\Jukebox V1.0002\Jukebox V1.000\obj\Debug\Jukebox V1.000.csproj.ResolveComReference.cache
+C:\Users\gleidson\Google Drive\VISUAL STUDIO PROJETOS\Jukebox V1.0002\Jukebox V1.000\obj\Debug\Jukebox V1.000.exe
+C:\Users\gleidson\Google Drive\VISUAL STUDIO PROJETOS\Jukebox V1.0002\Jukebox V1.000\obj\Debug\Jukebox V1.000.pdb
+C:\Users\gleidson\Google Drive\VISUAL STUDIO PROJETOS\Jukebox V1.0002\Jukebox V1.000\bin\Debug\Jukebox V1.000.exe
+C:\Users\gleidson\Google Drive\VISUAL STUDIO PROJETOS\Jukebox V1.0002\Jukebox V1.000\bin\Debug\Jukebox V1.000.pdb
+C:\Users\gleidson\Google Drive\VISUAL STUDIO PROJETOS\Jukebox V1.0002\Jukebox V1.000\bin\Debug\Interop.WMPLib.dll
+C:\Users\gleidson\Google Drive\VISUAL STUDIO PROJETOS\Jukebox V1.0002\Jukebox V1.000\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\gleidson\Google Drive\VISUAL STUDIO PROJETOS\Jukebox V1.0002\Jukebox V1.000\obj\Debug\Jukebox V1.000.csprojResolveAssemblyReference.cache
+C:\Users\gleidson\Google Drive\VISUAL STUDIO PROJETOS\Jukebox V1.0002\Jukebox V1.000\obj\Debug\Jukebox_V1._000.Form1.resources
+C:\Users\gleidson\Google Drive\VISUAL STUDIO PROJETOS\Jukebox V1.0002\Jukebox V1.000\obj\Debug\Jukebox_V1._000.Properties.Resources.resources
+C:\Users\gleidson\Google Drive\VISUAL STUDIO PROJETOS\Jukebox V1.0002\Jukebox V1.000\obj\Debug\Jukebox V1.000.csproj.GenerateResource.Cache
+E:\GOOGLE DRIVE\VISUAL STUDIO PROJETOS\Jukebox V1.0002\Jukebox V1.000\bin\Debug\Jukebox V1.000.exe.config
+E:\GOOGLE DRIVE\VISUAL STUDIO PROJETOS\Jukebox V1.0002\Jukebox V1.000\obj\Debug\Interop.WMPLib.dll
+E:\GOOGLE DRIVE\VISUAL STUDIO PROJETOS\Jukebox V1.0002\Jukebox V1.000\obj\Debug\AxInterop.WMPLib.dll
+E:\GOOGLE DRIVE\VISUAL STUDIO PROJETOS\Jukebox V1.0002\Jukebox V1.000\obj\Debug\Jukebox V1.000.csproj.ResolveComReference.cache
+E:\GOOGLE DRIVE\VISUAL STUDIO PROJETOS\Jukebox V1.0002\Jukebox V1.000\obj\Debug\Jukebox V1.000.exe
+E:\GOOGLE DRIVE\VISUAL STUDIO PROJETOS\Jukebox V1.0002\Jukebox V1.000\obj\Debug\Jukebox V1.000.pdb
+E:\GOOGLE DRIVE\VISUAL STUDIO PROJETOS\Jukebox V1.0002\Jukebox V1.000\bin\Debug\Jukebox V1.000.exe
+E:\GOOGLE DRIVE\VISUAL STUDIO PROJETOS\Jukebox V1.0002\Jukebox V1.000\bin\Debug\Jukebox V1.000.pdb
+E:\GOOGLE DRIVE\VISUAL STUDIO PROJETOS\Jukebox V1.0002\Jukebox V1.000\bin\Debug\Interop.WMPLib.dll
+E:\GOOGLE DRIVE\VISUAL STUDIO PROJETOS\Jukebox V1.0002\Jukebox V1.000\bin\Debug\AxInterop.WMPLib.dll
+E:\GOOGLE DRIVE\VISUAL STUDIO PROJETOS\Jukebox V1.0002\Jukebox V1.000\obj\Debug\Jukebox V1.000.csprojResolveAssemblyReference.cache
+E:\GOOGLE DRIVE\VISUAL STUDIO PROJETOS\Jukebox V1.0002\Jukebox V1.000\obj\Debug\Jukebox_V1._000.Form1.resources
+E:\GOOGLE DRIVE\VISUAL STUDIO PROJETOS\Jukebox V1.0002\Jukebox V1.000\obj\Debug\Jukebox_V1._000.Properties.Resources.resources
+E:\GOOGLE DRIVE\VISUAL STUDIO PROJETOS\Jukebox V1.0002\Jukebox V1.000\obj\Debug\Jukebox V1.000.csproj.GenerateResource.Cache
+C:\Users\gleidson\Documents\Minhas paletas\Jukebox V1.0002\Jukebox V1.000\bin\Debug\Jukebox V1.000.exe.config
+C:\Users\gleidson\Documents\Minhas paletas\Jukebox V1.0002\Jukebox V1.000\obj\Debug\Interop.WMPLib.dll
+C:\Users\gleidson\Documents\Minhas paletas\Jukebox V1.0002\Jukebox V1.000\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\gleidson\Documents\Minhas paletas\Jukebox V1.0002\Jukebox V1.000\obj\Debug\Jukebox V1.000.csproj.ResolveComReference.cache
+C:\Users\gleidson\Documents\Minhas paletas\Jukebox V1.0002\Jukebox V1.000\obj\Debug\Jukebox V1.000.exe
+C:\Users\gleidson\Documents\Minhas paletas\Jukebox V1.0002\Jukebox V1.000\obj\Debug\Jukebox V1.000.pdb
+C:\Users\gleidson\Google Drive\VISUAL STUDIO PROJETOS\Jukebox V1.0003\Jukebox V1.000\bin\Debug\Jukebox V1.000.exe.config
+C:\Users\gleidson\Google Drive\VISUAL STUDIO PROJETOS\Jukebox V1.0003\Jukebox V1.000\obj\Debug\Interop.WMPLib.dll
+C:\Users\gleidson\Google Drive\VISUAL STUDIO PROJETOS\Jukebox V1.0003\Jukebox V1.000\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\gleidson\Google Drive\VISUAL STUDIO PROJETOS\Jukebox V1.0003\Jukebox V1.000\obj\Debug\Jukebox V1.000.csproj.ResolveComReference.cache
+C:\Users\gleidson\Google Drive\VISUAL STUDIO PROJETOS\Jukebox V1.0003\Jukebox V1.000\obj\Debug\Jukebox V1.000.exe
+C:\Users\gleidson\Google Drive\VISUAL STUDIO PROJETOS\Jukebox V1.0003\Jukebox V1.000\obj\Debug\Jukebox V1.000.pdb
+C:\Users\gleidson\Google Drive\VISUAL STUDIO PROJETOS\Jukebox V1.0003\Jukebox V1.000\bin\Debug\Jukebox V1.000.exe
+C:\Users\gleidson\Google Drive\VISUAL STUDIO PROJETOS\Jukebox V1.0003\Jukebox V1.000\bin\Debug\Jukebox V1.000.pdb
+C:\Users\gleidson\Google Drive\VISUAL STUDIO PROJETOS\Jukebox V1.0003\Jukebox V1.000\bin\Debug\Interop.WMPLib.dll
+C:\Users\gleidson\Google Drive\VISUAL STUDIO PROJETOS\Jukebox V1.0003\Jukebox V1.000\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\gleidson\Google Drive\VISUAL STUDIO PROJETOS\Jukebox V1.0003\Jukebox V1.000\obj\Debug\Jukebox V1.000.csprojResolveAssemblyReference.cache
+C:\Users\gleidson\Google Drive\VISUAL STUDIO PROJETOS\Jukebox V1.0003\Jukebox V1.000\obj\Debug\Jukebox_V1._000.Form1.resources
+C:\Users\gleidson\Google Drive\VISUAL STUDIO PROJETOS\Jukebox V1.0003\Jukebox V1.000\obj\Debug\Jukebox_V1._000.Properties.Resources.resources
+C:\Users\gleidson\Google Drive\VISUAL STUDIO PROJETOS\Jukebox V1.0003\Jukebox V1.000\obj\Debug\Jukebox V1.000.csproj.GenerateResource.Cache
+C:\Users\Gleidson\Desktop\Jukebox V1.0003\Jukebox V1.000\bin\Debug\Jukebox V1.000.exe.config
+C:\Users\Gleidson\Desktop\Jukebox V1.0003\Jukebox V1.000\obj\Debug\Interop.WMPLib.dll
+C:\Users\Gleidson\Desktop\Jukebox V1.0003\Jukebox V1.000\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Gleidson\Desktop\Jukebox V1.0003\Jukebox V1.000\obj\Debug\Jukebox V1.000.csproj.ResolveComReference.cache
+C:\Users\Gleidson\Desktop\Jukebox V1.0003\Jukebox V1.000\obj\Debug\Jukebox V1.000.exe
+C:\Users\Gleidson\Desktop\Jukebox V1.0003\Jukebox V1.000\obj\Debug\Jukebox V1.000.pdb
+C:\Users\Gleidson\Desktop\Jukebox V1.0003\Jukebox V1.000\bin\Debug\Jukebox V1.000.exe
+C:\Users\Gleidson\Desktop\Jukebox V1.0003\Jukebox V1.000\bin\Debug\Jukebox V1.000.pdb
+C:\Users\Gleidson\Desktop\Jukebox V1.0003\Jukebox V1.000\bin\Debug\Interop.WMPLib.dll
+C:\Users\Gleidson\Desktop\Jukebox V1.0003\Jukebox V1.000\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Gleidson\Desktop\Jukebox V1.0003\Jukebox V1.000\obj\Debug\Jukebox V1.000.csprojResolveAssemblyReference.cache
+C:\Users\Gleidson\Desktop\Jukebox V1.0003\Jukebox V1.000\obj\Debug\Jukebox_V1._000.Form1.resources
+C:\Users\Gleidson\Desktop\Jukebox V1.0003\Jukebox V1.000\obj\Debug\Jukebox_V1._000.Properties.Resources.resources
+C:\Users\Gleidson\Desktop\Jukebox V1.0003\Jukebox V1.000\obj\Debug\Jukebox V1.000.csproj.GenerateResource.Cache
+C:\Users\Gleidson\Source\Repos\JukeBox\Jukebox V1.000\bin\Debug\Jukebox V1.000.exe.config
+C:\Users\Gleidson\Source\Repos\JukeBox\Jukebox V1.000\obj\Debug\Interop.WMPLib.dll
+C:\Users\Gleidson\Source\Repos\JukeBox\Jukebox V1.000\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Gleidson\Source\Repos\JukeBox\Jukebox V1.000\obj\Debug\Jukebox V1.000.csproj.ResolveComReference.cache
+C:\Users\Gleidson\Source\Repos\JukeBox\Jukebox V1.000\obj\Debug\Jukebox V1.000.exe
+C:\Users\Gleidson\Source\Repos\JukeBox\Jukebox V1.000\obj\Debug\Jukebox V1.000.pdb
