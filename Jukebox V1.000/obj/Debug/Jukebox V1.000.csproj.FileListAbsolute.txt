@@ -107,3 +107,11 @@ C:\Users\Gleidson\Source\Repos\JukeBox\Jukebox V1.000\obj\Debug\AxInterop.WMPLib
 C:\Users\Gleidson\Source\Repos\JukeBox\Jukebox V1.000\obj\Debug\Jukebox V1.000.csproj.ResolveComReference.cache
 C:\Users\Gleidson\Source\Repos\JukeBox\Jukebox V1.000\obj\Debug\Jukebox V1.000.exe
 C:\Users\Gleidson\Source\Repos\JukeBox\Jukebox V1.000\obj\Debug\Jukebox V1.000.pdb
+C:\Users\Gleidson\Source\Repos\JukeBox\Jukebox V1.000\obj\Debug\Jukebox V1.000.csprojResolveAssemblyReference.cache
+C:\Users\Gleidson\Source\Repos\JukeBox\Jukebox V1.000\obj\Debug\Jukebox_V1._000.Form1.resources
+C:\Users\Gleidson\Source\Repos\JukeBox\Jukebox V1.000\obj\Debug\Jukebox_V1._000.Properties.Resources.resources
+C:\Users\Gleidson\Source\Repos\JukeBox\Jukebox V1.000\obj\Debug\Jukebox V1.000.csproj.GenerateResource.Cache
+C:\Users\Gleidson\Source\Repos\JukeBox\Jukebox V1.000\bin\Debug\Jukebox V1.000.exe
+C:\Users\Gleidson\Source\Repos\JukeBox\Jukebox V1.000\bin\Debug\Jukebox V1.000.pdb
+C:\Users\Gleidson\Source\Repos\JukeBox\Jukebox V1.000\bin\Debug\Interop.WMPLib.dll
+C:\Users\Gleidson\Source\Repos\JukeBox\Jukebox V1.000\bin\Debug\AxInterop.WMPLib.dll

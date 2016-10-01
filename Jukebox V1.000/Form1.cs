@@ -152,7 +152,7 @@ namespace Jukebox_V1._000
 
                 foreach (Musica elemento in principal.Cds[navegar.Image2].musicas)
                 {
-                    lstbCdSelecionado.Items.Add(elemento.tituloMusica);
+                    lstbCdSelecionado.Items.Add(elemento.get_tituloMusica());
                     Application.DoEvents();
                 }
             }
@@ -180,7 +180,7 @@ namespace Jukebox_V1._000
         {
             if (lstPlayList.Items.Count > 0)
             {
-                Player2.URL = musicasSelecionadas[0].caminhoMusica;
+                Player2.URL = musicasSelecionadas[0].get_caminhoMusica();
                 musicasSelecionadas.Remove(musicasSelecionadas[0]);
                 lstPlayList.Items.Remove(lstPlayList.Items[0]);
                 timer1.Start();
@@ -221,13 +221,13 @@ namespace Jukebox_V1._000
         {
             if (lstbCdSelecionado.SelectedIndex >= 0)
             {
-                if (!lstPlayList.Items.Contains(principal.Cds[navegar.Image2].musicas[lstbCdSelecionado.SelectedIndex].tituloMusica)&creditos>=1)//verifica se ja escolheu a mesma música
+                if (!lstPlayList.Items.Contains(principal.Cds[navegar.Image2].musicas[lstbCdSelecionado.SelectedIndex].get_tituloMusica())&creditos>=1)//verifica se ja escolheu a mesma música
                 {
 
                     creditos --;
                     lbCreditos.Text = creditos.ToString();
                     musicasSelecionadas.Add(principal.Cds[navegar.Image2].musicas[lstbCdSelecionado.SelectedIndex]);
-                    lstPlayList.Items.Add(principal.Cds[navegar.Image2].musicas[lstbCdSelecionado.SelectedIndex].tituloMusica);
+                    lstPlayList.Items.Add(principal.Cds[navegar.Image2].musicas[lstbCdSelecionado.SelectedIndex].get_tituloMusica());
                    // lstbCdSelecionado.MouseDown;
                     
                 }
@@ -278,7 +278,7 @@ namespace Jukebox_V1._000
             if (lstPlayList.Items.Count > 0 && lbTime.Text != "" && Convert.ToInt32(lbTime.Text.Replace(":", "")) == Convert.ToInt32(lbDuracao.Text.Replace(":", "")) - 1)
             {
 
-                Player2.URL = musicasSelecionadas[0].caminhoMusica;
+                Player2.URL = musicasSelecionadas[0].get_caminhoMusica();
                 musicasSelecionadas.Remove(musicasSelecionadas[0]);
                 lstPlayList.Items.Remove(lstPlayList.Items[0]);
 

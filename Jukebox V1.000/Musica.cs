@@ -8,9 +8,9 @@ namespace Jukebox_V1._000
 {
     class Musica
     {
-        public string tituloMusica;
-        public string caminhoMusica;
-        public string caminhoCapa;
+        private string tituloMusica;
+        private string caminhoMusica;
+        private string caminhoCapa;
 
         public Musica(string tituloM, string caminhoM, string caminhoC)
         {
@@ -19,8 +19,18 @@ namespace Jukebox_V1._000
             this.tituloMusica = tituloM;
         
         }
-
-
+        public string get_tituloMusica()
+        {
+            return this.tituloMusica;
+        }
+        public string get_caminhoMusica()
+        {
+            return this.caminhoMusica;
+        }
+        public string get_caminhoCapa()
+        {
+            return this.caminhoCapa;
+        }
 
     }
 }

@@ -9,7 +9,6 @@ namespace Jukebox_V1._000
     class CdDvd
     {
         public string tituloCdDvd;
-        public string caminhoCdDvd;
         public string caminhoCapa;
 
         public List<Musica> musicas = new List<Musica>();
@@ -17,10 +16,7 @@ namespace Jukebox_V1._000
         public CdDvd(string tituloCd)
         {
 
-            this.tituloCdDvd = tituloCd;
-           
-           // this.caminhoCdDvd = caminhoCd;
-
+            this.tituloCdDvd = tituloCd;       
         }
         public void AddCapa(string caminhoC)
         {

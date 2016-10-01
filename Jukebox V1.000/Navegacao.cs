@@ -79,7 +79,7 @@ namespace Jukebox_V1._000
 
                     foreach (Musica elemento in cds[posImage[i]].musicas)
                     {
-                        lstbCdSelecionado.Items.Add(elemento.tituloMusica);
+                        lstbCdSelecionado.Items.Add(elemento.get_tituloMusica());
                         Application.DoEvents();
                     }
 
@@ -147,7 +147,7 @@ namespace Jukebox_V1._000
 
                     foreach (Musica elemento in cds[posImage[i]].musicas)
                     {
-                        lstbCdSelecionado.Items.Add(elemento.tituloMusica);
+                        lstbCdSelecionado.Items.Add(elemento.get_tituloMusica());
                         Application.DoEvents();
                     }
 
