@@ -8,7 +8,7 @@ namespace Jukebox_V1._000
 {
     class Musica
     {
-        private string tituloMusica;
+        private string tituloMusica;//titulo da musica
         private string caminhoMusica;
         private string caminhoCapa;
 

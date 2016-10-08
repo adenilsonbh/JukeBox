@@ -48,21 +48,21 @@
             this.lstbCdSelecionado = new System.Windows.Forms.ListBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.lbCreditos = new System.Windows.Forms.Label();
             this.Player2 = new AxWMPLib.AxWindowsMediaPlayer();
+            this.lbAtencaoPastaVazia = new System.Windows.Forms.Label();
             this.lbDuracao = new System.Windows.Forms.Label();
             this.lbTime = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.Player = new AxWMPLib.AxWindowsMediaPlayer();
             this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.lbCreditos = new System.Windows.Forms.Label();
-            this.lbAtencaoPastaVazia = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             this.lbTotalCds = new System.Windows.Forms.Label();
             this.lbCdAtual = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.button2 = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
             this.lbTocando = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -281,6 +281,35 @@
             this.groupBox4.TabIndex = 3;
             this.groupBox4.TabStop = false;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(125, 214);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(115, 18);
+            this.label5.TabIndex = 20;
+            this.label5.Text = "Gleidson Viana";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(34, 87);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(97, 18);
+            this.label3.TabIndex = 19;
+            this.label3.Text = "CRÉDITOS: ";
+            // 
+            // lbCreditos
+            // 
+            this.lbCreditos.AutoSize = true;
+            this.lbCreditos.ForeColor = System.Drawing.Color.White;
+            this.lbCreditos.Location = new System.Drawing.Point(139, 87);
+            this.lbCreditos.Name = "lbCreditos";
+            this.lbCreditos.Size = new System.Drawing.Size(0, 18);
+            this.lbCreditos.TabIndex = 18;
+            // 
             // Player2
             // 
             this.Player2.Enabled = true;
@@ -290,6 +319,16 @@
             this.Player2.Size = new System.Drawing.Size(208, 35);
             this.Player2.TabIndex = 17;
             this.Player2.Visible = false;
+            // 
+            // lbAtencaoPastaVazia
+            // 
+            this.lbAtencaoPastaVazia.AutoSize = true;
+            this.lbAtencaoPastaVazia.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbAtencaoPastaVazia.ForeColor = System.Drawing.Color.White;
+            this.lbAtencaoPastaVazia.Location = new System.Drawing.Point(57, 69);
+            this.lbAtencaoPastaVazia.Name = "lbAtencaoPastaVazia";
+            this.lbAtencaoPastaVazia.Size = new System.Drawing.Size(0, 15);
+            this.lbAtencaoPastaVazia.TabIndex = 9;
             // 
             // lbDuracao
             // 
@@ -341,35 +380,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "CDS";
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(34, 87);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(97, 18);
-            this.label3.TabIndex = 19;
-            this.label3.Text = "CRÉDITOS: ";
-            // 
-            // lbCreditos
-            // 
-            this.lbCreditos.AutoSize = true;
-            this.lbCreditos.ForeColor = System.Drawing.Color.White;
-            this.lbCreditos.Location = new System.Drawing.Point(139, 87);
-            this.lbCreditos.Name = "lbCreditos";
-            this.lbCreditos.Size = new System.Drawing.Size(0, 18);
-            this.lbCreditos.TabIndex = 18;
-            // 
-            // lbAtencaoPastaVazia
-            // 
-            this.lbAtencaoPastaVazia.AutoSize = true;
-            this.lbAtencaoPastaVazia.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbAtencaoPastaVazia.ForeColor = System.Drawing.Color.White;
-            this.lbAtencaoPastaVazia.Location = new System.Drawing.Point(57, 69);
-            this.lbAtencaoPastaVazia.Name = "lbAtencaoPastaVazia";
-            this.lbAtencaoPastaVazia.Size = new System.Drawing.Size(0, 15);
-            this.lbAtencaoPastaVazia.TabIndex = 9;
-            // 
             // button5
             // 
             this.button5.Location = new System.Drawing.Point(856, 649);
@@ -412,16 +422,6 @@
             this.button2.Text = "Sair";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(125, 214);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(115, 18);
-            this.label5.TabIndex = 20;
-            this.label5.Text = "Gleidson Viana";
             // 
             // lbTocando
             // 

@@ -115,3 +115,9 @@ C:\Users\Gleidson\Source\Repos\JukeBox\Jukebox V1.000\bin\Debug\Jukebox V1.000.e
 C:\Users\Gleidson\Source\Repos\JukeBox\Jukebox V1.000\bin\Debug\Jukebox V1.000.pdb
 C:\Users\Gleidson\Source\Repos\JukeBox\Jukebox V1.000\bin\Debug\Interop.WMPLib.dll
 C:\Users\Gleidson\Source\Repos\JukeBox\Jukebox V1.000\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\adenilson\Source\Repos\JukeBox\Jukebox V1.000\bin\Debug\Jukebox V1.000.exe.config
+C:\Users\adenilson\Source\Repos\JukeBox\Jukebox V1.000\obj\Debug\Interop.WMPLib.dll
+C:\Users\adenilson\Source\Repos\JukeBox\Jukebox V1.000\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\adenilson\Source\Repos\JukeBox\Jukebox V1.000\obj\Debug\Jukebox V1.000.csproj.ResolveComReference.cache
+C:\Users\adenilson\Source\Repos\JukeBox\Jukebox V1.000\obj\Debug\Jukebox V1.000.exe
+C:\Users\adenilson\Source\Repos\JukeBox\Jukebox V1.000\obj\Debug\Jukebox V1.000.pdb
